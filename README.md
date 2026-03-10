@@ -1,6 +1,9 @@
 # Smart Cab Booking Platform
+A full-stack ride-hailing platform inspired by Uber and Ola.
 
-A full-stack ride booking platform inspired by Uber/Ola.
+This project includes rider and driver dashboards, real-time map routes using OpenStreetMap and OSRM, Stripe payment integration, support ticket system, and an emergency SOS safety feature.
+
+Built using Next.js, Supabase, Clerk authentication, and Leaflet maps.
 
 ## Tech Stack
 - Next.js
