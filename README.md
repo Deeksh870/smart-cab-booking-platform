@@ -25,3 +25,14 @@ A full-stack ride booking platform inspired by Uber/Ola.
 
 ## Project Demo
 A full demonstration video is provided in the project submission.
+
+## Screenshots
+
+### Rider Dashboard
+![Rider Dashboard](screenshots/rider.png)
+
+### Driver Dashboard
+![Driver Dashboard](screenshots/driver.png)
+
+### Support & SOS
+![Support Page](screenshots/support.png)
