@@ -36,3 +36,23 @@ A full demonstration video is provided in the project submission.
 
 ### Support & SOS
 ![Support Page](screenshots/support.png)
+
+## System Architecture
+
+The platform follows a full-stack architecture:
+
+Frontend
+- Next.js
+- TypeScript
+- Leaflet Maps
+
+Backend
+- Supabase Database
+- Clerk Authentication
+- Stripe Payments
+
+External APIs
+- OpenStreetMap
+- OSRM Routing Engine
+
+The system includes rider and driver modules, real-time route visualization, payment processing, and an emergency SOS safety feature.
