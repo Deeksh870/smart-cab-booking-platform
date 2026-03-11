@@ -74,6 +74,14 @@ Built using **Next.js, Supabase, Clerk authentication, and Leaflet maps**.
 
 ---
 
+## 🎥 Project Demo
+
+Watch the full demo video here:
+
+[Demo Video](https://drive.google.com/file/d/1e7BWNgDCR-4cOXzng-opOaLW1d4_g2oL/view?usp=drive_link)
+
+---
+
 ## System Architecture
 
 The platform follows a **full-stack architecture**.
