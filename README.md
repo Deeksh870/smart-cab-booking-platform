@@ -1,33 +1,65 @@
-# Smart Cab Booking Platform
-A full-stack ride-hailing platform inspired by Uber and Ola.
+<h1 align="center">Smart Cab Booking Platform</h1>
 
-This project includes rider and driver dashboards, real-time map routes using OpenStreetMap and OSRM, Stripe payment integration, support ticket system, and an emergency SOS safety feature.
+<p align="center">
+<img src="https://img.shields.io/badge/Next.js-Framework-black?logo=next.js">
+<img src="https://img.shields.io/badge/Supabase-Database-green?logo=supabase">
+<img src="https://img.shields.io/badge/Stripe-Payments-purple?logo=stripe">
+<img src="https://img.shields.io/badge/TypeScript-Language-blue?logo=typescript">
+<img src="https://img.shields.io/badge/OpenStreetMap-Maps-orange?logo=openstreetmap">
+</p>
 
-Built using Next.js, Supabase, Clerk authentication, and Leaflet maps.
+---
+
+## Overview
+
+A full-stack ride-hailing platform inspired by **Uber and Ola**.
+
+This project includes **rider and driver dashboards**, real-time map routes using **OpenStreetMap and OSRM**, **Stripe payment integration**, a **support ticket system**, and an **emergency SOS safety feature**.
+
+Built using **Next.js, Supabase, Clerk authentication, and Leaflet maps**.
+
+---
 
 ## Tech Stack
+
 - Next.js
+- TypeScript
 - Supabase
 - Clerk Authentication
 - Stripe Payments
-- Leaflet + OpenStreetMap
-- OSRM Routing
+- Leaflet Maps
+- OpenStreetMap
+- OSRM Routing Engine
+
+---
 
 ## Features
-- Rider Dashboard
-- Driver Dashboard
-- Ride Booking
-- Live Map Route Visualization
-- Fare Calculation
-- Promo Codes
-- Stripe Payment Integration
-- Ride History
-- Driver Ratings
-- Support Ticket System
-- Emergency SOS Alert System
 
-## Project Demo
-A full demonstration video is provided in the project submission.
+### Rider Module
+- Book rides between locations
+- Real-time route visualization
+- Fare estimation
+- Online payment via Stripe
+- Ride history
+- Rate drivers after trip
+
+### Driver Module
+- Accept or reject ride requests
+- View pickup and drop route
+- Track ride status
+- Driver ratings system
+
+### Support System
+- Submit support tickets
+- View ticket status
+- Issue categories
+
+### Emergency Safety (SOS)
+- Emergency SOS button
+- Sends alert message
+- Shares live location link via WhatsApp
+
+---
 
 ## Screenshots
 
@@ -40,22 +72,55 @@ A full demonstration video is provided in the project submission.
 ### Support & SOS
 ![Support Page](screenshots/support.png)
 
+---
+
 ## System Architecture
 
-The platform follows a full-stack architecture:
+The platform follows a **full-stack architecture**.
 
-Frontend
+### Frontend
 - Next.js
 - TypeScript
 - Leaflet Maps
 
-Backend
+### Backend
 - Supabase Database
 - Clerk Authentication
-- Stripe Payments
+- Stripe Payment API
 
-External APIs
+### External APIs
 - OpenStreetMap
 - OSRM Routing Engine
 
-The system includes rider and driver modules, real-time route visualization, payment processing, and an emergency SOS safety feature.
+The system includes **rider and driver modules**, **real-time route visualization**, **payment processing**, and an **emergency SOS safety feature**.
+
+---
+
+## Project Structure
+
+app/
+├── rider
+├── driver
+├── support
+├── profile
+components/
+├── Map
+├── RideStatus
+lib/
+├── supabase.ts
+
+---
+
+## Future Improvements
+
+- Real-time driver tracking
+- Admin dashboard
+- Ride analytics
+- Push notifications
+- Live ride sharing
+
+---
+
+## License
+
+This project is licensed under the **MIT License**.
